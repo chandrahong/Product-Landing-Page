@@ -1,0 +1,193 @@
+    iframe{
+        display:block; 
+        margin:0 auto;"
+    }
+    label{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        color: darkorange;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    p{
+        font-weight:500;
+    }
+
+    header{
+        position:sticky;
+        top:0;
+        background-color: white;
+    }
+
+    #header{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    @media (max-width: 600px) {
+        #header {
+        flex-wrap: wrap;
+        }
+    }
+
+    #logo-and-name{
+        display:flex;
+    }
+    #logo-name{
+        padding-top:60px;
+    }
+    #header-img{
+        width: 200px;
+        height:200px;
+    }
+
+    #nav-bar{
+        padding-top: 50px;
+    }
+
+    #email-submit{
+        text-align: center;
+        color: black;
+    }
+
+    #email{
+        border-radius: border-radius: 0.25rem;
+        width: 400px;
+        height : 30px;
+
+    }
+    #submit{
+        border-radius: border-radius: 0.25rem;
+        width: 200px;
+        height : 30px;
+        background-color: yellow;
+        font-weight : 600;
+    }
+
+    #features{
+        display : block;
+        margin: 0 auto;
+        
+    }
+
+    #features .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 125px;
+        width: 20vw;
+        color: darkorange;
+        margin-left : 20%;
+        margin-right : 0;
+    }
+    
+    @media (max-width: 550px) {
+        #features .icon {
+        display: none;
+        }
+    }
+
+
+    #features .desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 125px;
+        width: 70%;
+        padding: 5px;
+        margin-left 0;
+        margin-right: 20%;
+    }
+    
+
+    .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding-top : 30px;
+        padding-bottom :30px;
+        padding-right: 60px;
+        padding-left: 50px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+
+    .topnav a:hover {
+        background-color: darkorange;
+        color: black;
+    }
+
+    .grid {
+        display: flex;
+    }
+
+    .song-name{
+        padding-bottom : 10px;
+    }
+
+    #pricing {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size :larger;
+    }
+
+    .product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: calc(100% / 3);
+        margin: 10px;
+        border: 1px solid #000;
+        border-radius: 3px;
+    }
+
+    .product > .level {
+        background-color: #ddd;
+        color: black;
+        padding: 15px 0;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    
+    .product > h2 {
+        margin-top: 15px;
+    }
+    
+    .product > ol {
+        margin: 15px 0;
+    }
+    
+    .product > ol > li {
+        padding: 5px 0;
+    }
+    
+    .product > button {
+        border-radius: border-radius: 0.25rem;
+        width: 200px;
+        height : 30px;
+        border: 0;
+        margin: 15px 0;
+        background-color: yellow;
+        font-weight: 600;
+    }
+
+    #email-submit input[type="submit"]:hover {
+        background-color: orange;
+        transition: background-color 1s;
+    }
+
+    .product > button:hover {
+        background-color: orange;
+        transition: background-color 1s;
+    }
+
+    
